@@ -7,3 +7,6 @@ start() ->
 	A = [{"A1", "B1"}],
 	P =#employee{person=#person{name="John",address="A"},id=1},
 	io:fwrite("~p~n",[P#employee.id]).
+	io:fwrite(test:main).
+
+	
